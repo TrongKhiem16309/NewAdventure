@@ -1,4 +1,0 @@
-Start Page với chữ "Bắt đầu hành trình" để chuyển tới phần khác (Như 1 cái link).
-Còn lại không quan trọng. 
-nền riêng
-tượng cụ Phan sẽ có thể zoom ra ~10% trong khoảng 20s. Rồi nhớ luôn, F5 ko reset lại kích thước tượng
