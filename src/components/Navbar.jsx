@@ -11,7 +11,7 @@ const navItems = [
 
 function Navbar() {
   return (
-    <header className="sticky top-0 z-50 border-b border-white/10 bg-[#05030d]/70 backdrop-blur-xl shadow-[0_0_0_1px_rgba(255,255,255,0.015)]">
+    <header className="sticky top-0 z-50 border-b border-white/10 bg-transparent backdrop-blur-xl shadow-[0_0_0_1px_rgba(255,255,255,0.015)]">
       <div className="container mx-auto flex items-center justify-between px-6 py-4 lg:px-12">
         <div className="text-sm font-semibold uppercase tracking-[0.36em] text-white/80">The Phan Legacy</div>
         <nav className="hidden items-center gap-8 lg:flex">

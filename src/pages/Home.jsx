@@ -2,16 +2,9 @@ import Hero from '../components/Hero'
 import SectionReveal from '../components/SectionReveal'
 
 function Home() {
-  const scrollToIntroduction = () => {
-    const section = document.getElementById('introduction')
-    if (section) {
-      section.scrollIntoView({ behavior: 'smooth', block: 'start' })
-    }
-  }
-
   return (
     <div className="overflow-hidden">
-      <Hero onStartJourney={scrollToIntroduction} />
+      <Hero />
 
       <div className="container mx-auto max-w-7xl px-6 lg:px-12">
         <SectionReveal
