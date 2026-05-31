@@ -9,13 +9,11 @@ function Hero() {
           backgroundImage: `url(${backgroundImage})`,
           backgroundPosition: 'center',
           backgroundSize: 'cover',
-          filter: 'brightness(1.45) saturate(1.25)'
+          filter: 'brightness(1.35) saturate(1.2)'
         }}
       />
-      <div className="pointer-events-none absolute inset-y-0 left-0 w-1/3 -z-10 bg-gradient-to-r from-slate-950/10 to-transparent" />
-      <div className="pointer-events-none absolute inset-y-0 right-0 w-1/2 -z-10 bg-[radial-gradient(circle_at_center_right,rgba(255,230,195,0.08),transparent_55%)]" />
       <div className="relative mx-auto flex min-h-[92vh] max-w-[1480px] items-center">
-        <div className="max-w-2xl space-y-8 text-white lg:max-w-xl">
+        <div className="max-w-2xl space-y-8 text-white lg:max-w-xl" style={{ textShadow: '0 8px 30px rgba(0,0,0,0.6)' }}>
           <span className="text-xs font-semibold uppercase tracking-[0.35em] text-gold/90">
             DIGITAL HERITAGE PROJECT
           </span>
